@@ -1,0 +1,7 @@
+public class Weapons 
+{
+	
+
+	
+	weapon_Type Heavy =new weapon_Type();
+}
