@@ -1,0 +1,9 @@
+public class weapon_Type 
+{
+	private static String Heavy;
+	private static String Light;
+	private static String Legendary;
+	private static String dark_Magic;
+	private static String Pyromancy;
+	private static String light_Magic;
+}
