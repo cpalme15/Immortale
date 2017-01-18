@@ -1,0 +1,42 @@
+
+public class Stats 
+{
+	private static int Strength;
+	private static int Dexterity;
+	private static int Mysticism;
+	private static int Vigor;
+	private static int Defense;
+	
+public Stats()
+	{
+	 Strength=5;
+	 Dexterity=5;
+	 Mysticism=5;
+	 Vigor=5;
+	 Defense=5;
+	
+	}
+
+
+	public static int hitPoints()
+		{
+			int hitpoints ;
+			hitpoints=Vigor*10;
+			
+			
+			return  hitpoints;
+		}
+	public static int weapon_Damage()
+	{
+		
+	}
+	public static int generaldamage()
+	{
+		int gendamdone;
+		
+		gendamdone=(int) ((Math.pow(Strength, 2)*weapon_Damage())/3);
+		return gendamdone;
+		
+	}
+	
+}
