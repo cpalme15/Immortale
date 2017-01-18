@@ -1,0 +1,16 @@
+
+public class Test 
+{
+/*  A an rpg game with character classes with adventure and exploration.
+ * different classes:thief,Scholar,hunter,occultist,brute,pyromancer,brute,assassin
+ * each class starts with different stats and items to use. 
+ * inspired by my favorite series of game the Soulsbourne series
+ * 
+ */
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
